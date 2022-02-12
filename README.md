@@ -147,7 +147,16 @@ We have provided test data for all the resources.
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+    * `Node.js`: We can use javascript to write back-end code similarly to how we use it to write code for the front end.
+    * `Express`: it allows us to simplify our code writing by working with JSON, serve static content, and it is compatible with other middleware.
 1. Understand and explain the use of Middleware.
+    *  that provides common services and capabilities to applications outside of what's offered by the operating system. Data management, application services, messaging, authentication, and API management are all commonly handled by middleware.
 1. The basic principles of the REST architectural style.
+    * REST architectural style connects clients to servers. It is a stateless in the sense that each request is stand-alone and each resource is accessible through its own URL. REST works with caches of data that makes it more efficient in retrieving data for a client.
 1. Understand and explain the use of Express Routers.
+    * Express Routers allow for a variety of URL endpoints to work with their own data and requests under one universal server. It's a way to link together routers and make them cleaner and more contained within their specific purposes.
 1. Describe tooling used to manually test the correctness of an API.
+    * HTTPie, Curl , Insomnia or Postman: 
+    * Postman: It is an HTTP client that tests HTTP requests, utilizing a graphical user interface, through which we obtain different types of responses that need to be subsequently validated. 
+    * HTTPie: is a command-line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. 
+    * testing of endpoints of a URL to determine whether the responses are correct and the API is working as it should be.
